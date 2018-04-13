@@ -1,0 +1,23 @@
+{
+  "name": "timerkiller",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "homepage": "./",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "electron": "electron .",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "foreman": "^2.0.0"
+  }
+}
